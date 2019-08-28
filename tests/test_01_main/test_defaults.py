@@ -32,24 +32,12 @@ def verify_container(container, response_text):
     "image,response_text",
     [
         (
-            "tiangolo/uvicorn-gunicorn-starlette:python3.6",
-            "Hello world! From Starlette running on Uvicorn with Gunicorn. Using Python 3.6",
-        ),
-        (
             "tiangolo/uvicorn-gunicorn-starlette:python3.7",
             "Hello world! From Starlette running on Uvicorn with Gunicorn. Using Python 3.7",
         ),
         (
             "tiangolo/uvicorn-gunicorn-starlette:latest",
             "Hello world! From Starlette running on Uvicorn with Gunicorn. Using Python 3.7",
-        ),
-        (
-            "tiangolo/uvicorn-gunicorn-starlette:python3.6-alpine3.8",
-            "Hello world! From Starlette running on Uvicorn with Gunicorn in Alpine. Using Python 3.6",
-        ),
-        (
-            "tiangolo/uvicorn-gunicorn-starlette:python3.7-alpine3.8",
-            "Hello world! From Starlette running on Uvicorn with Gunicorn in Alpine. Using Python 3.7",
         ),
     ],
 )
